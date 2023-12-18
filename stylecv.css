@@ -1,117 +1,116 @@
-<style>
-	body {
-		font-family: Arial, sans-serif;
-		background-color: #f9f9f9;
-		margin: 0;
-		padding: 0;
-	}
 
-	h1 {
-		color: #333;
-		text-align: center;
-		margin-top: 50px;
-	}
+/* Réinitialisation des styles par défaut */
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
-	img {
-		display: block;
-		margin: 0 auto;
-		border-radius: 50%;
-		margin-top: 20px;
-	}
+/* Style global pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF91A4;
+    margin: 0;
+    padding: 0;
+}
 
-	h2 {
-		color: #333;
-		text-align: center;
-		margin-top: 30px;
-	}
+/* Styles pour les en-têtes */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
 
-	p {
-		color: #555;
-		text-align: center;
-		margin: 20px auto;
-		max-width: 600px;
-	}
+h1 {
+    margin-top: 50px;
+}
 
-	ul {
-		list-style-type: none;
-		padding: 0;
-		margin: 20px auto;
-		max-width: 600px;
-	}
+h2 {
+    margin-top: 30px;
+}
 
-	li {
-		margin-bottom: 10px;
-	}
+/* Style pour les images centrées */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
 
-	li img {
-		vertical-align: middle;
-		margin-right: 5px;
-	}
+/* Style pour les paragraphes centrés */
+p {
+    color: #555;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
 
-	section {
-		padding: 40px 0;
-		background-color: #f5f5f5;
-	}
+/* Styles pour les listes */
+ul {
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
 
-	section h2 {
-		color: #333;
-		text-align: center;
-		margin-bottom: 30px;
-	}
+li {
+    margin-bottom: 10px;
+}
 
-	table {
-		width: 100%;
-		border-collapse: collapse;
-		margin: 0 auto;
-		max-width: 600px;
-	}
+/* Styles pour les sections */
+section {
+    padding: 40px 0;
+    background-color: #f5f5f5;
+}
 
-	table td {
-		padding: 10px;
-		border: 1px solid #ccc;
-	}
+section h2 {
+    margin-bottom: 30px;
+}
 
-	footer {
-		text-align: center;
-		background-color: #333;
-		color: #fff;
-		padding: 20px;
-	}
+/* Styles pour les tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 600px;
+}
 
-	footer a {
-		color: #fff;
-		text-decoration: none;
-	}
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
 
-	.navigation {
-		background-color: #ff77a9;
-		padding: 10px;
-	}
+/* Style pour le pied de page */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
 
-	.navigation__logo {
-		font-weight: bold;
-		font-size: 20px;
-		text-decoration: none;
-		color: #fff;
-	}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
 
-	.navigation__list {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		display: flex;
-		justify-content: center;
-	}
+/* Style pour la navigation */
+.navigation__container {
+    display: flex;
+    justify-content: center;
+    background-color: #ffcccc; /* Remplacez par la couleur de fond souhaitée */
+}
 
-	.navigation__list li {
-		margin-right: 10px;
-	}
+.navigation__list {
+    display: flex;
+}
 
-	.navigation__list li a {
-		text-decoration: none;
-		color: #fff;
-		font-weight: bold;
-		font-size: 16px;
-	}
+.navigation__list a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #333; /* Couleur du texte */
+    font-weight: bold;
+    margin: 0 10px; /* Ajoute de la marge entre les liens */
+}
 
-</style>
+.navigation__list a:hover {
+    color: black; /* Couleur du texte au survol */
+    background-color: #fff; /* Couleur de fond au survol */
+}

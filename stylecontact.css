@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #FF91A4;
     margin: 0;
     padding: 0;
 }
@@ -82,37 +82,41 @@ footer a {
     text-decoration: none;
 }
 
-.navigation {
-    background-color: #ff77a9;
-    padding: 10px;
-}
 
-.navigation__logo {
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    color: #fff;
-}
-
-.navigation__list {
-    list-style-type: none;
+	ul, li {
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation container */
+.navigation__container {
     display: flex;
     justify-content: center;
+    background-color: #ffcccc; /* Rose - Remplacez par la couleur de fond souhaitée */
 }
 
+/* Style the navigation list */
+.navigation__list {
+    display: flex;
+}
+
+/* Style the navigation links */
 .navigation__list li {
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
-.navigation__list li a {
+.navigation__list a {
     text-decoration: none;
-    color: #fff;
+    padding: 10px 20px;
+    color: #333; /* Couleur du texte */
     font-weight: bold;
-    font-size: 16px;
 }
 
+.navigation__list a:hover {
+    color: black; /* Couleur du texte au survol */
+    background-color: #fff; /* Couleur de fond au survol */
+}
 .contact__heading {
     color: #333;
     text-align: center;
